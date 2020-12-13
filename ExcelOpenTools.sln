@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OpenTools-Addin", "src\OpenTools-Addin\OpenTools-Addin.vbproj", "{E719C451-D507-4E4F-9DF9-5396FCC0F76E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExcelOpenTools.Core.VB", "src\ExcelOpenTools.Core.VB\ExcelOpenTools.Core.VB.vbproj", "{A98FCA98-D22A-4337-A9C2-81D2225C82C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E719C451-D507-4E4F-9DF9-5396FCC0F76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E719C451-D507-4E4F-9DF9-5396FCC0F76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E719C451-D507-4E4F-9DF9-5396FCC0F76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E719C451-D507-4E4F-9DF9-5396FCC0F76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98FCA98-D22A-4337-A9C2-81D2225C82C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98FCA98-D22A-4337-A9C2-81D2225C82C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98FCA98-D22A-4337-A9C2-81D2225C82C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98FCA98-D22A-4337-A9C2-81D2225C82C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA00232E-C99E-47B2-8C3D-1AD17E35C79F}
+	EndGlobalSection
+EndGlobal
