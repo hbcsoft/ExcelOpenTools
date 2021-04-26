@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFrameworks>net452</TargetFrameworks>
+    <RootNamespace>ExcelOpenTools.Wpf</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <DisableImplicitNamespaceImports>true</DisableImplicitNamespaceImports>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <!-- Conditionally obtain references for the .NET Framework 4.5 target -->
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ViewModels\**" />
+    <EmbeddedResource Remove="ViewModels\**" />
+    <None Remove="ViewModels\**" />
+    <Page Remove="ViewModels\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ExcelDna.Integration" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+
+</Project>
